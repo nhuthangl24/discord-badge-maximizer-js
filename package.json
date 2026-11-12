@@ -1,0 +1,36 @@
+{
+  "name": "discord-badge-maximizer-js",
+  "version": "1.0.0",
+  "description": "Discord Badge Maximizer in pure Node.js - Stream Time & Game Playtime Telemetry Engine",
+  "type": "module",
+  "main": "bot.js",
+  "bin": {
+    "discord-badge-maximizer": "./bot.js"
+  },
+  "scripts": {
+    "start": "node bot.js",
+    "bot": "node bot.js",
+    "stream": "node stream.js",
+    "games": "node games.js"
+  },
+  "keywords": [
+    "discord",
+    "badges",
+    "stream",
+    "streaming-badge",
+    "game-badge",
+    "telemetry",
+    "bot",
+    "discordjs"
+  ],
+  "author": "nhuthangl24",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

@@ -1,0 +1,18 @@
+# Node modules & dependencies
+node_modules/
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Session credentials & runtime cache
+session.json
+session.json.contaminated.bak
+.env
+*.env
+data/
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
